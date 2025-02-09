@@ -1,16 +1,15 @@
-[project]
-name = "rtw-mod-aid"
-version = "0.0.0"
-description = "Scripts to help modding RTW remastered"
-authors = [
-    {name = "Lock9down"}
-]
+[tool.poetry]
+name = "scripts"
+version = "0.1.0"
+description = "initial init"
+authors = ["Lock9down"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.4"
 
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
